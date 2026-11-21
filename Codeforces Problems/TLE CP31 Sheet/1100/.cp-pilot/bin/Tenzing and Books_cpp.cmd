@@ -1,0 +1,1 @@
+g++ -std=gnu++17 -O2 -Wall -o '/home/rishi-kumar/Competitive Programming/Codeforces Problems/TLE CP31 Sheet/1100/.cp-pilot/bin/Tenzing and Books_cpp' '/home/rishi-kumar/Competitive Programming/Codeforces Problems/TLE CP31 Sheet/1100/Tenzing and Books.cpp'

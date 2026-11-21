@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "Sort the subarray",
+  "group": "",
+  "url": "",
+  "interactive": false,
+  "timeLimit": 0,
+  "memoryLimit": 0,
+  "tests": [
+    {
+      "input": "3\n7\n6 7 3 4 4 6 5\n6 3 4 4 7 6 5\n3\n1 2 1\n1 1 2\n3\n2 2 1\n2 1 2\n",
+      "output": "2 5\n1 3\n2 3\n"
+    }
+  ]
+}

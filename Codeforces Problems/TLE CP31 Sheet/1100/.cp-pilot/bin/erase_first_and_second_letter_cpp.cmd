@@ -1,0 +1,1 @@
+g++ -std=gnu++17 -O2 -Wall -o '/home/rishi-kumar/Competitive Programming/Codeforces Problems/TLE CP31 Sheet/1100/.cp-pilot/bin/erase_first_and_second_letter_cpp' '/home/rishi-kumar/Competitive Programming/Codeforces Problems/TLE CP31 Sheet/1100/erase_first_and_second_letter.cpp'

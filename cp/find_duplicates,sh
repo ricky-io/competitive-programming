@@ -1,0 +1,28 @@
+#!/bin/bash
+
+mkdir -p duplicates
+
+declare -A seen
+
+for file in *.cpp
+do
+    hash=$(sha256sum "$file" | awk '{print $1}')
+
+    if [[ -n "${seen[$hash]}" ]]
+    then
+        echo "Duplicate:"
+        echo "  Keeping : ${seen[$hash]}"
+        echo "  Moving  : $file"
+        echo
+
+        mv "$file" duplicates/
+    else
+        seen[$hash]="$file"
+    fi
+done
+
+echo "=============================="
+echo "Duplicate cleanup finished."
+echo "Remaining CPP files: $(ls *.cpp 2>/dev/null | wc -l)"
+echo "Duplicates moved:    $(ls duplicates/*.cpp 2>/dev/null | wc -l)"
+echo "=============================="

@@ -1,0 +1,1 @@
+g++ -std=gnu++17 -O2 -Wall -o '/home/rishi-kumar/Competitive Programming/Codeforces Problems/TLE CP31 Sheet/1200/.cp-pilot/bin/vika_and_the_bridge_cpp' '/home/rishi-kumar/Competitive Programming/Codeforces Problems/TLE CP31 Sheet/1200/vika_and_the_bridge.cpp'

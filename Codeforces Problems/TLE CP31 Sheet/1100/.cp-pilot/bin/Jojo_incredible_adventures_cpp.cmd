@@ -1,0 +1,1 @@
+g++ -std=gnu++17 -O2 -Wall -o '/home/rishi-kumar/Competitive Programming/Codeforces Problems/TLE CP31 Sheet/1100/.cp-pilot/bin/Jojo_incredible_adventures_cpp' '/home/rishi-kumar/Competitive Programming/Codeforces Problems/TLE CP31 Sheet/1100/Jojo_incredible_adventures.cpp'
