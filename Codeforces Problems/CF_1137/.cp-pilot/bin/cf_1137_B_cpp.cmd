@@ -1,0 +1,1 @@
+g++ -std=gnu++17 -O2 -Wall -o '/home/rishi-kumar/Competitive Programming/Codeforces Problems/CF_1137/.cp-pilot/bin/cf_1137_B_cpp' '/home/rishi-kumar/Competitive Programming/Codeforces Problems/CF_1137/cf_1137_B.cpp'
